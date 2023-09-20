@@ -1,0 +1,50 @@
+[
+  {
+    "nom": "Pomme",
+    "prix": 5,
+    "quantity": 0,
+    "image": "images/pomme.png"
+  },
+  {
+    "nom": "Poire",
+    "prix": 4,
+    "quantity": 0,
+    "image": "images/poire.png"
+  },
+  {
+    "nom": "Cerise",
+    "prix": 6,
+    "quantity": 0,
+    "image": "images/cerise.png"
+  },
+  {
+    "nom": "Orange",
+    "prix": 3,
+    "quantity": 0,
+    "image": "images/orange.png"
+  },
+  {
+    "nom": "Pêche",
+    "prix": 7,
+    "quantity": 0,
+    "image": "images/peche.png"
+  },
+  {
+    "nom": "Noix de coco",
+    "prix": 8,
+    "quantity": 0,
+    "image": "images/noix-de-coco.png"
+  },
+  {
+    "nom": "Pomme de pin",
+    "prix": 2,
+    "quantity": 0,
+    "image": "images/pomme-de-pin.png"
+  },
+  {
+    "nom": "Bambou",
+    "prix": 10,
+    "quantity": 0,
+    "image": "images/bambou.png"
+  }
+]

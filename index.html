@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Crossing Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+   
+</head>
+<body>
+    <div class="wrapper">
+
+        <nav class="navbar">
+            <div class="bells"><img src="images/bell-bag.png" alt="" class="bellbalance"><span id="balance"></span></div>
+        </nav>
+        
+        <ul id="fruit-list">
+            
+        </ul>
+        
+        <button id="buy-button">Acheter</button>
+        
+        <div id="confirmation-modal" class="modal">
+        <div class="svg-container">
+            <svg id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" version="1.1" class="bubbleShape1">                    <defs>                         <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">                            <stop id="stop1" stop-color="rgba(240.272, 240.272, 240.272, 1)" offset="0%"></stop>                            <stop id="stop2" stop-color="rgba(251.656, 244.654, 233.097, 1)" offset="100%"></stop>                        </linearGradient>                    </defs>                <path class="blob-path" fill="url(#sw-gradient)" d="M16.6,-22.3C21.5,-19.2,25.6,-14.4,29.5,-8.2C33.4,-2,37.1,5.6,35.3,11.6C33.6,17.6,26.4,22,19.6,25.9C12.8,29.7,6.4,33,0.6,32.2C-5.2,31.3,-10.4,26.4,-17.9,22.8C-25.4,19.2,-35.3,16.9,-40.3,10.9C-45.4,4.8,-45.7,-5.1,-40.8,-11.1C-35.9,-17.2,-25.8,-19.4,-18.1,-21.6C-10.5,-23.8,-5.2,-26.1,0.3,-26.5C5.8,-26.9,11.6,-25.4,16.6,-22.3Z" width="100%" height="100%" transform="translate(50 50)" stroke-width="0" style="transition: all 0.3s ease 0s;"></path>              </svg>
+        </div>
+            <div class="modal-content">
+                <p id="confirmation-message"></p>
+                <div class="modal-button">
+
+                    <button id="confirm-buy">Oui !</button>
+                    <button id="cancel-buy">Annuler</button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="end-modal" class="modal dialogue">
+            <div class="modal-content">
+                <p>Achat terminé !</p>
+                <li id="end-buy">Fermer</li>
+            </div>
+        </div>
+        
+
+        
+
+    </div>
+</body>
+</html>
