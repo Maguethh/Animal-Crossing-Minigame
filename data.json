@@ -46,5 +46,29 @@
     "prix": 10,
     "quantity": 0,
     "image": "images/bambou.png"
+  },
+  {
+    "nom": "Hache",
+    "prix": 25,
+    "quantity": 0,
+    "image": "images/axe.png"
+  },
+  {
+    "nom": "Baguette Magique",
+    "prix": 50,
+    "quantity": 0,
+    "image": "images/wand.png"
+  },
+  {
+    "nom": "Canne à pêche",
+    "prix": 30,
+    "quantity": 0,
+    "image": "images/fishing.png"
+  },
+  {
+    "nom": "Parapluie",
+    "prix": 20,
+    "quantity": 0,
+    "image": "images/umbrella.png"
   }
 ]

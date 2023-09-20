@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", () => {
       confirmationMessage.textContent = "";
 
       const messageText = message;
-      const animationSpeed = 100;
+      const animationSpeed = 50;
 
       typeWriter(messageText, confirmationMessage, animationSpeed);
     });
